@@ -41,7 +41,7 @@ void InitNotifyIconData(HWND hWnd) {
 		LR_LOADFROMFILE | LR_SHARED);
 
 	// Устанавливаем текст и размер текста при наведении
-	memcpy(nid.szTip, TEXT("bebe"), 2 * sizeof(TCHAR));
+	memcpy(nid.szTip, TEXT("baba"), 2 * sizeof(TCHAR));
 
 	//// Сама функция добавления значка в трею
 	Shell_NotifyIcon(NIM_ADD, &nid);
